@@ -4,7 +4,7 @@ import ItemListContainer from '../components/Items/ItemListContainer'
 const Home = () => {
   return (
     <div>
-      Home
+      HOME
       <ItemListContainer />
       </div>
   )
