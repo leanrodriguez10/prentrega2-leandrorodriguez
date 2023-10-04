@@ -8,6 +8,8 @@ import Contacto from './pages/Contacto'
 import { Route, Routes } from 'react-router'
 import { Link } from 'react-router-dom'
 import Detalle from './pages/Detalle'
+import Hombre from './pages/Hombre'
+import Mujer from './pages/Mujer'
 
 
 
@@ -23,11 +25,17 @@ const App = () => {
       <Route path='/about' element={<About  />}/>
       <Route path='/contacto' element={<Contacto  />}/>
       <Route path='/detalle/:id' element={<Detalle />}/>
+      <Route path='/category/hombre' element={<Hombre />}/>
+      <Route path='/category/mujer' element={<Mujer />}/>
+      
+      
+     
+
    
   </Routes>
 
 
-    {/*<ItemListContainer />*/}
+    {/*<ItemListContainer />
     {/*} <ItemDetailContainer />*/}
       </>
   )
